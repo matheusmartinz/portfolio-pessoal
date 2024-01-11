@@ -115,13 +115,22 @@ body {
 }
 
 .stacks-content h3 {
-    color: var(--color-purple);
-    font-size: 1.30rem;
+    color: var(--color-white);
+    font-size: 1.50rem;
     font-style: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
-    margin-left: -20px;
+    margin-left: -100px;
+
+    display: inline;
+    background: black;
+    padding: 1.7%;
+    padding-top: 1%;
+    padding-right: 0.5px;
+    padding-left: 0.9px;
+    
 }
+
 
 .stacks{
     display: flex;
@@ -144,8 +153,19 @@ body {
 }
 
 .stacks-content .stacks li div[data="HTML"]::after {
-    margin-left: 3.5px;
+    margin-left: 2px;
     position: center;
+    font-style: bold;
+} 
+.stacks-content .stacks li div[data="CSS"]::after {
+    margin-left: 4.5px;
+    position: center;
+    font-style: bold;
+} 
+.stacks-content .stacks li div[data="JAVASCRIPT"]::after {
+    margin-left: -12px;
+    position: center;
+    font-style: bold;
 } 
 
 
@@ -225,7 +245,7 @@ body {
     background: 
         radial-gradient(rgba(0,0,0,0.15) 50%, transparent 0),
         radial-gradient(#000 68%, transparent 0),
-        linear-gradient(to top right, black 0%, #ff1493 100%);
+        linear-gradient(to top right, black 0%, blue 100%);
 }
 
 .profile-photo {    
