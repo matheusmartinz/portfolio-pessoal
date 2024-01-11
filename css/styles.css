@@ -213,6 +213,8 @@ body {
     padding: 14px;
     margin: 20px 15px;
     border-radius: 50%;
+    position: relative;
+    left: 18%;
 
     background: 
         radial-gradient(rgba(0,0,0,0.15) 50%, transparent 0),
