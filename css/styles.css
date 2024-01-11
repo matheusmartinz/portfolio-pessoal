@@ -143,6 +143,12 @@ body {
     list-style: none;
 }
 
+.stacks-content .stacks li div[data="HTML"]::after {
+    margin-left: 3.5px;
+    position: center;
+} 
+
+
 .stacks ul li img {
     width: 30px;
     height: auto;
