@@ -123,6 +123,7 @@ body {
     margin-left: -100px;
 
     display: inline;
+    border-radius: 4px;
     background: black;
     padding: 1.7%;
     padding-top: 1%;
@@ -266,6 +267,104 @@ body {
 .links a img:hover {
     transform: scale(1.15);
     filter: brightness(1);
+}
+
+/*FINAL DA PRIMEIRA PÁGINA*/
+
+
+.about2{   
+    display: flex;
+}
+
+.background-about{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper{
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+}
+
+.img-wrapper::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background: 
+        linear-gradient(.25turn, transparent 30%, var(--color-black)),
+        linear-gradient(.5turn, transparent 30%, var(--color-black)),
+        linear-gradient(1turn, transparent 65%, var(--color-black));
+}
+
+.img-wrapper img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.box-about {
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 50%;
+
+    padding: 3rem;
+}
+
+.section-subtitle h2 p {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.section-subtitle h2 p:nth-child(2) span{
+    padding: 3px 5px;
+    border-radius: 4px;
+
+    color: purple;
+    background: var(--color-black);
+}
+
+.box-about h3 {
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+.box-about h3 p {
+    display: inline-block;
+
+    width: fit-content;
+    border-radius: 4px;
+
+    color: var(--color-white);
+    background: var(--color-black);
+}
+
+.box-about h4 {
+    margin: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+.box-about h4 p {
+    display: inline;
+    padding: 2px 4px;
+
+    color: var(blue);
+    font-size: bold;
+    font-weight: 1.75rem;
 }
 
 @keyframes written_text {
