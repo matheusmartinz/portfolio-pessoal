@@ -433,7 +433,7 @@ body {
     margin: 4rem 3rem;
 }
 
-.button-cta button {
+.button-cta a {
     display: inline-block;
 
     width: 100%;
@@ -445,6 +445,10 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     letter-spacing: .2rem;
+    background: var(--color-purple);
+    text-decoration: none;
+    color: var(--color-white);
+
     font-size: 1.5rem;
 
     border-radius: 10px;
@@ -453,7 +457,7 @@ body {
     transition: transform .3s ease-in-out;
 }
 
-.button-cta button:hover {
+.button-cta a:hover {
     transition: all .4s ease;
     filter:brightness(.6);
     transform: scale(1.1);
