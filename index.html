@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>Portfólio - Matheus</title>
 </head>
 <body> 
@@ -141,8 +142,12 @@
         <div class="projects-title">
             <h2>PROJETOS 🎯</h2>
         </div>
+        <div class="slide">
+            <div class="projects-container">
+                <!-- Insira os projetos aqui -->
+            </div>
+        
         <div class="wrapper-projects">
-
             <div class="card-project">
                 <div class="content-project">
                     <div class="image-project">
@@ -150,16 +155,16 @@
                         <img src="/img/projects-work2.jpg" alt="projects-photo">
                         </a>
                     </div>
-                    <span>Projeto em Desenvolvimento</span>
+                    <span>Gerador de QRCode</span>
                     
-                    <p>Este projeto tem tal funcionalidade</p>
+                    <p>A funcionalidade dele é gerar qualquer caminho URL em um QRCode</p>
 
                     <div class="cta-projects">
-                        <a href="/">
+                        <a href="https://github.com/matheusmartinz/gerador-QRCode" target="_blank">
                             Código
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="/">
+                        <a href="https://generatorqrcoder.netlify.app/" target="_blank">
                             Site
                             <i class="fa-solid fa-globe"></i>
                         </a>
@@ -216,7 +221,9 @@
             </div>
             
         </div>
-
+        <button class="carousel-button prev">&#10094;</button>
+        <button class="carousel-button next">&#10095;</button>
+        </div>
     </section>
     <!-- End Projects -->
 

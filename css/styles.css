@@ -580,10 +580,11 @@ body {
 
 .content-project p {
     color: var(--color-white);
-    font-weight: bold;
-    font-size: 1.1rem;
+    /* font-weight: bold; */
+    font-size: 1.4rem;
     margin: 0rem .75rem;
-    margin-left: 25px;    
+    margin-left: 25px;  
+    font-family: 'Poppins', sans-serif;  
 }
 
 .cta-projects {
@@ -738,7 +739,6 @@ body {
 .container-footer h2 {
     font-size: 1.5rem;
 }
-
 
 @keyframes written_text {
     100% {

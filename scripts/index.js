@@ -7,6 +7,6 @@ window.addEventListener('scroll' , () => {
         header.style.background = 'transparent'
     }
 
-})
+}) 
 
 header.style.transition = 'background 0.6s ease';
